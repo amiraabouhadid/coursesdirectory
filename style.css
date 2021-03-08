@@ -17,25 +17,29 @@
 .nav-center {
   width: 40%;
 }
-.mh-cell{
-  background-image: url(pictures/pic3.jpg);
-  height:4rem;
-  width:10rem;
 
+.mh-cell {
+  background-image: url(pictures/pic3.jpg);
+  height: 4rem;
+  width: 10rem;
 }
-.mh-cell-home{
-  height:4rem;
-  width:10rem;
+
+.mh-cell-home {
+  height: 4rem;
+  width: 10rem;
 }
-.mh-cell a{
-  z-index:500;
+
+.mh-cell a {
+  z-index: 500;
 }
-.main-header{
-  margin-top:85px;
+
+.main-header {
+  margin-top: 85px;
   overflow-x: scroll;
 }
-.main-header-links{
-  font-size:0.75rem;
+
+.main-header-links {
+  font-size: 0.75rem;
 }
 
 .main-body-signup {
@@ -54,9 +58,11 @@
 .main-body {
   margin-top: 200px;
 }
-.main-body-discover{
-  margin-top:90px;
+
+.main-body-discover {
+  margin-top: 90px;
 }
+
 .footer-link {
   font-size: 10px;
   color: dimgrey;
