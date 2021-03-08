@@ -13,9 +13,31 @@
 .bottom-nav-2-buttons button {
   font-size: 0.75rem;
 }
+
+.nav-center {
+  width: 40%;
+}
+.mh-cell{
+  background-image: url(pictures/pic3.jpg);
+  height:4rem;
+  width:10rem;
+
+}
+.mh-cell a{
+  z-index:500;
+}
+.main-header{
+  margin-top:85px;
+  overflow-x: scroll;
+}
+.main-header-links{
+  font-size:0.75rem;
+}
+
 .main-body-signup {
   margin-bottom: 100px;
 }
+
 .mb-cell-middle-right p {
   font-size: 10px;
 }
@@ -27,7 +49,6 @@
 
 .main-body {
   margin-top: 200px;
-
 }
 
 .footer-link {
