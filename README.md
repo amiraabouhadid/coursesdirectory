@@ -2,11 +2,11 @@
 
 # HTML CAPSTONE: COURSES DIRECTORY
 
-We were asked to create a responsive clone of the Newsweek webpage using Bootsrap.
+We were asked to create a responsive school directory webpage with links to results and details pages using Bootsrap & CSS3.
 
-![Screenshot from 2021-03-03 18-52-29](https://user-images.githubusercontent.com/56790126/109841426-b5d89f80-7c51-11eb-91da-18926e6639e7.png)
+![Screenshot from 2021-03-08 20-05-21](https://user-images.githubusercontent.com/56790126/110362250-b86c3800-8049-11eb-9a19-33c35b58d6aa.png)
 
-Additional description about the project and its features.
+A homepage containing links to three other pages was created.
 
 ## Built With
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://amiraabouhadid.github.io/project3/)
+[Live Demo Link](https://amiraabouhadid.github.io/coursesdirectory/)
 
 
 ## Getting Started
@@ -66,3 +66,4 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
+This project is [creativecommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
