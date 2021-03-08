@@ -1,5 +1,18 @@
 .bottom-nav{
-  width:90%;
   height:3rem;
 
+}
+.grid{
+  display:grid;
+}
+.bottom-nav-2-buttons button{
+  font-size:0.75rem;
+}
+.bottom-nav-2{
+  grid-template-columns: 75% 25%;
+  height:2rem;
+}
+.footer-link{
+  font-size:10px;
+  color:dimgrey;
 }

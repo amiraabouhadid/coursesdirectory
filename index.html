@@ -16,73 +16,153 @@
 
 <body>
   <header class=''>
-<!--
-    <script>
-      $(document).ready(function() {
-
-        $('#sidebarCollapse').on('click', function() {
-          $('#sidebar').toggleClass('active');
-        });
-
-      });
-    </script> -->
-    <nav class='navbar position-fixed container-fluid'>
+    <nav class='navbar fixed-top container-fluid'>
       <div class="top-nav  d-flex row justify-content-between col-sm-12">
         <div class="top-nav-left d-flex row align-items-center">
-          <div id="content">
+          <div class="navbar-menu-content d-sm-inline d-md-none">
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="container-fluid">
-                  <i id="sidebarCollapse" class="fas fa-bars"></i>
+                <i id="sidebarCollapse" class="fas fa-bars"></i>
               </div>
             </nav>
           </div>
-          <a class="text-dark" href="#">A&A</a>
+          <a class="text-dark mx-3 font-weight-bolder d-lg-none" href="#">A&A</a>
+          <a class="text-dark mx-3 font-weight-bolder d-none d-lg-inline" href="#">Amira&Art</a>
+          <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href="#">Discover</a>
+          <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href="#">Livestreams</a>
+          <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href="#">Jobs</a>
+        </div>
+        <div class="top-nav-right ml-auto">
+          <a class='text-dark d-sm-inline d-lg-none' href="#"><i class="fas fa-search"></i></a>
+          <button class='d-none d-lg-inline border-light rounded-pill  small font-weight-bolder' type="button" name="button">Log In</button>
+          <button class='d-none d-lg-inline  rounded-pill small font-weight-bolder btn-primary' type="button" name="button">Sign Up</button>
+          <a class='d-none d-lg-inline  font-weight-bolder small text-dark' href="#"><i class="fas fa-book"></i>Adobe</a>
         </div>
 
-        <a class='text-dark' href="#"><i class="fas fa-search"></i></a>
-<!--
-        <div class="wrapper ">
-
-          <nav id="sidebar">
-            <div class="sidebar-header">
-              <span>X</span>
-              <button class='rounded-pill' type="button" name="button">Log In</button>
-            </div>
-            <a class='active' href="">Discover</a>
-            <a href="#">Livestreams</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-
-          </nav>
-
-
-        </div>-->
+      </div>
       </div>
 
-<hr class='w-100'>
-      <div class="bottom-nav bg-light mx-auto container  border rounded-pill  ">
+      <hr class='w-100'>
+      <div class="bottom-nav bg-light mx-auto container-fluid  border rounded-pill  ">
+
         <div class="bottom-nav-left d-flex row align-items-center">
           <i class=" ml-4 fas fa-search text-secondary "></i>
-          <input class=' border-0 ml-3 bg-light font-weight-bolder'type="text" name="" value="" placeholder="Search Amira&Art">
+          <input class=' border-0 ml-3 bg-light font-weight-bolder' type="text" name="" value="" placeholder="Search Amira&Art">
         </div>
-          <div class="bottom-nav-right border-left  dropdown show justify-content-start">
-            <a class=" text-dark dropdown-toggle ml-2 font-weight-bolder" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projects
+        <!--mobile view-->
+        <div class="bottom-nav-right border-left d-sm-inline d-md-none dropdown show justify-content-start">
+          <a class=" text-dark dropdown-toggle ml-2 font-weight-bolder" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Surrealism</a>
+            <a class="dropdown-item" href="#">Realism</a>
+            <a class="dropdown-item" href="#">Abstract</a>
+          </div>
+        </div>
+        <!--medium view-->
+        <div class="bottom-nav-right d-none d-md-inline border-left ">
+          <a href="#"><button class='font-weight-bolder mx-3 rounded-pill btn-dark small' type=" button" name="button"> Projects</button></a>
+          <a class='text-dark small mx-3 font-weight-bolder' href="#">Images</a>
+          <a class='text-dark small mx-3 font-weight-bolder' href="#">People</a>
+          <a class='text-dark small mx-3 font-weight-bolder' href="#">Moodboards</a>
+        </div>
+
+
+      </div>
+      <div class="bottom-nav-2 container-fluid grid mx-auto d-none d-md-inline mt-3   ">
+        <div class="bottom-nav-2-left d-flex row flex-nowrap">
+
+
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown show ml-auto">
+            <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recommended
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Surrealism</a>
-              <a class="dropdown-item" href="#">Realism</a>
-              <a class="dropdown-item" href="#">Abstract</a>
-
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-
+          </div>
         </div>
-
       </div>
       <hr class="w-100 ">
     </nav>
-
   </header>
+  <main>
+
+  </main>
+  <footer class='d-none d-md-inline fixed-bottom container-fluid '>
+    <hr class='mb-0'>
+    <div class="d-flex row flex-nowrap mt-1 mb-2">
+    <div class="btn-group dropup border-right mx-4">
+      <a class="footer-link font-weight-bolder dropdown-toggle mx-4" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        More Amira & Art
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+    <div class="btn-group dropup border-right mx-4">
+      <a class="footer-link font-weight-bolder dropdown-toggle mx-4" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        English
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+    <a class="footer-link font-weight-bolder mx-4" href="#"> Privacy</a>
+    <a class="footer-link font-weight-bolder mx-4" href="#"> Community</a>
+    <a class="footer-link font-weight-bolder mx-4" href="#"> Help</a>
+    <a class="footer-link font-weight-bolder mx-4" href="#"> Cookie preferences</a>
+    <a class="footer-link text-dark font-weight-bolder ml-auto mr-4 " href="#"><i class="mr-1 fas fa-book"></i>Adobe</a>
+
+</div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
