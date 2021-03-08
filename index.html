@@ -15,9 +15,76 @@
 </head>
 
 <body>
+  <header class=''>
+<!--
+    <script>
+      $(document).ready(function() {
+
+        $('#sidebarCollapse').on('click', function() {
+          $('#sidebar').toggleClass('active');
+        });
+
+      });
+    </script> -->
+    <nav class='navbar position-fixed container-fluid'>
+      <div class="top-nav  d-flex row justify-content-between col-sm-12">
+        <div class="top-nav-left d-flex row align-items-center">
+          <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                  <i id="sidebarCollapse" class="fas fa-bars"></i>
+              </div>
+            </nav>
+          </div>
+          <a class="text-dark" href="#">A&A</a>
+        </div>
+
+        <a class='text-dark' href="#"><i class="fas fa-search"></i></a>
+<!--
+        <div class="wrapper ">
+
+          <nav id="sidebar">
+            <div class="sidebar-header">
+              <span>X</span>
+              <button class='rounded-pill' type="button" name="button">Log In</button>
+            </div>
+            <a class='active' href="">Discover</a>
+            <a href="#">Livestreams</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+
+          </nav>
+
+
+        </div>-->
+      </div>
+
+<hr class='w-100'>
+      <div class="bottom-nav bg-light mx-auto container  border rounded-pill  ">
+        <div class="bottom-nav-left d-flex row align-items-center">
+          <i class=" ml-4 fas fa-search text-secondary "></i>
+          <input class=' border-0 ml-3 bg-light font-weight-bolder'type="text" name="" value="" placeholder="Search Amira&Art">
+        </div>
+          <div class="bottom-nav-right border-left  dropdown show justify-content-start">
+            <a class=" text-dark dropdown-toggle ml-2 font-weight-bolder" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Surrealism</a>
+              <a class="dropdown-item" href="#">Realism</a>
+              <a class="dropdown-item" href="#">Abstract</a>
+
+            </div>
+
+        </div>
+
+      </div>
+      <hr class="w-100 ">
+    </nav>
+
+  </header>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
-</body>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
