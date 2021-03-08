@@ -4,7 +4,7 @@
 
 We were asked to create a responsive school directory webpage with links to results and details pages using Bootsrap & CSS3.
 
-![Screenshot from 2021-03-08 20-05-21](https://user-images.githubusercontent.com/56790126/110362250-b86c3800-8049-11eb-9a19-33c35b58d6aa.png)
+![Screenshot from 2021-03-08 20-05-21](https://user-images.githubusercontent.com/56790126/110362730-4fd18b00-804a-11eb-83f0-f239b62ceb5e.png)
 
 A homepage containing links to three other pages was created.
 
