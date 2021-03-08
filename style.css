@@ -50,7 +50,9 @@
 .main-body {
   margin-top: 200px;
 }
-
+.main-body-discover{
+  margin-top:90px;
+}
 .footer-link {
   font-size: 10px;
   color: dimgrey;
