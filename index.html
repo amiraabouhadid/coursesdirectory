@@ -15,13 +15,13 @@
 </head>
 
 <body>
-  <header >
+  <header>
     <nav class='navbar fixed-top container-fluid bg-white my-0'>
       <div class="top-nav  d-flex row justify-content-between col-sm-12">
         <div class="top-nav-left d-flex row align-items-center">
           <div class="d-sm-inline d-lg-none dropdown show justify-content-start">
-            <a class=" text-dark dropdown-toggle ml-2 font-weight-bolder" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-bars"></i>
+            <a id='dropdownMenuLink' class=" text-dark dropdown-toggle ml-2 font-weight-bolder" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bars"></i>
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="discover.html">Discover</a>
@@ -51,7 +51,7 @@
 
         <div class="bottom-nav-left d-flex row align-items-center">
           <i class=" ml-4 fas fa-search text-secondary "></i>
-          <input class=' border-0 ml-3 bg-light font-weight-bolder' type="text" name="search" value="" placeholder="Search Amira&Art">
+          <input class=' border-0 ml-3 bg-light font-weight-bolder' id='search' type="text" name="search" value="" placeholder="Search Amira&Art">
         </div>
         <!--mobile view-->
         <div class="bottom-nav-right border-left d-sm-inline d-md-none dropdown show justify-content-start">
