@@ -1,18 +1,29 @@
-.bottom-nav{
-  height:3rem;
+.bottom-nav {
+  height: 3rem;
+}
+.authors{
+  font-size: 10px;
+}
 
+.grid {
+  display: grid;
 }
-.grid{
-  display:grid;
+
+.bottom-nav-2-buttons button {
+  font-size: 0.75rem;
 }
-.bottom-nav-2-buttons button{
-  font-size:0.75rem;
-}
-.bottom-nav-2{
+
+.bottom-nav-2 {
   grid-template-columns: 75% 25%;
-  height:2rem;
+  height: 2rem;
 }
-.footer-link{
-  font-size:10px;
-  color:dimgrey;
+
+.main-body {
+  margin-top:100px;
+  margin-bottom:50px;
+}
+
+.footer-link {
+  font-size: 10px;
+  color: dimgrey;
 }
