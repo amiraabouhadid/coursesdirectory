@@ -23,6 +23,10 @@
   width:10rem;
 
 }
+.mh-cell-home{
+  height:4rem;
+  width:10rem;
+}
 .mh-cell a{
   z-index:500;
 }
