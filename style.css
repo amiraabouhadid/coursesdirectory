@@ -1,7 +1,8 @@
 .bottom-nav {
   height: 3rem;
 }
-.authors{
+
+.authors {
   font-size: 10px;
 }
 
@@ -12,6 +13,12 @@
 .bottom-nav-2-buttons button {
   font-size: 0.75rem;
 }
+.main-body-signup {
+  margin-bottom: 100px;
+}
+.mb-cell-middle-right p {
+  font-size: 10px;
+}
 
 .bottom-nav-2 {
   grid-template-columns: 75% 25%;
@@ -19,8 +26,8 @@
 }
 
 .main-body {
-  margin-top:100px;
-  margin-bottom:50px;
+  margin-top: 200px;
+
 }
 
 .footer-link {
