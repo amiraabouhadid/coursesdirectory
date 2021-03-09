@@ -85,7 +85,8 @@
 .pli-6 p,
 .pli-7 p,
 .pli-8 p,
-.pli-9 p {
+.pli-9 p,
+.pli-home p {
   font-size: 0.85rem;
 }
 
@@ -97,7 +98,8 @@
 .pli-6,
 .pli-7,
 .pli-8,
-.pli-9 {
+.pli-9,
+.pli-home {
   height: 4rem;
   width: 8.5rem;
 }
@@ -173,11 +175,17 @@
 .main-body {
   margin-top: 200px;
 }
-
+.cv-img{
+  width:10px;
+  height:10px;
+}
 .main-body-discover {
   margin-top: 90px;
 }
-
+.carousel-2-vid{
+  height:7.5rem;
+  width:100%;
+}
 .footer-link {
   font-size: 10px;
   color: dimgrey;
