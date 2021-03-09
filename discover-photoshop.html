@@ -19,22 +19,23 @@
     <nav class='navbar fixed-top container-fluid flex-nowrap d-flex bg-white my-0 border-bottom'>
       <div class="nav-left d-flex row ">
         <div class="d-lg-none dropdown show justify-content-start">
-          <a id='dml-1' class=" text-dark dropdown-toggle ml-2 font-weight-bolder" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class=" text-dark dropdown-toggle mx-3" href="#" role="button" id="dml-11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
           </a>
-          <div class="dropdown-menu" aria-labelledby="dml-1">
-            <a class="dropdown-item" href="#discover.html">Discover</a>
-            <a class="dropdown-item" href="#livestreams.html">Livestreams</a>
-            <a class="dropdown-item" href="#jobs.html">Jobs</a>
+
+          <div class="dropdown-menu" aria-labelledby="dml-11">
+            <a class="dropdown-item" href="discover.html">Discover</a>
+            <a class="dropdown-item" href="livestreams.html">Livestreams</a>
+            <a class="dropdown-item" href="jobs.html">Jobs</a>
           </div>
         </div>
-        <a class="text-dark mx-3 font-weight-bolder d-lg-none" href="index.html">A&A</a>
+        <a class="text-dark  font-weight-bolder d-lg-none" href="index.html">A&A</a>
         <a class="text-dark mx-3 font-weight-bolder d-none d-lg-inline" href="index.html">Amira & Art</a>
         <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href="discover.html">Discover</a>
         <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href='livestreams.html'>Livestreams</a>
         <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href="jobs.html">Jobs</a>
       </div>
-      <div class="nav-center border  rounded-pill">
+      <div class="nav-center border  d-none d-lg-inline rounded-pill">
         <i class=" ml-3 fas small text-secondary fa-search"></i>
         <input class='border-0 ml-3 small' type="text" id='fname' name="fname" value="" placeholder="Search...">
       </div>
@@ -50,57 +51,89 @@
 
   </header>
   <main>
-    <div class="main-header container-fluid  mx-auto d-flex row flex-nowrap">
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-      <div class="mh-cell rounded d-flex justify-content-center align-items-center mr-1">
-        <a class='text-light font-weight-bolder' href="#">Illustrator</a>
-      </div>
-    </div>
-    <section class="main-header-2 container-fluid  w-50 mx-auto">
-      <div class="justify-content-center main-header-links  d-flex row mx-auto">
+    <nav class='pag-1 container-fluid mb-0' aria-label="Search results pages">
 
-        <button class='mr-3  bg-white border-light p-1 rounded small font-weight-bolder' type="button" name="button">All Illustrator</button>
+      <ul class="pagination  pag-list d-flex row flex-nowrap align-items-center ">
+        <li class="d-none d-md-inline rounded  page-item  disabled">
+          <div class=" shadow-scroll-1 d-flex align-items-center ">
+          </div>
+          <a class=" left-chevron mr-0 bg-light border-light text-dark sticky-right rounded-circle py-0 px-4 align-items-center d-flex page-link" href="#" tabindex="-1" aria-label="Previous">
+            <span aria-hidden="true"><i class="fas fa-chevron-left text-secondary"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
 
-        <button class='mr-3 bg-white border-light p-1 rounded small font-weight-bolder' type="button" name="button">Desktop</button>
+        <li class="page-item active mr-2"><a class="page-link rounded pli-1 text-center  d-flex align-items-center" href="discover-illustrator.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Illustrator</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-2 text-center  d-flex align-items-center" href="discover-photoshop.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Photoshop</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-3 text-center  d-flex align-items-center" href="discover-abstract.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Abstract</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-4 text-center  d-flex align-items-center" href="discover-surrealism.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Surrealism</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-5 text-center  d-flex align-items-center" href="discover-realism.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Realism</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-6 text-center  d-flex align-items-center" href="discover-textures.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Textures</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-7 text-center  d-flex align-items-center" href="discover-acrylic.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Acrylic</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-8 text-center  d-flex align-items-center" href="discover-oil.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Oil</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-9 text-center  d-flex align-items-center" href="discover-hyperrealism.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Hyperrealism</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-9 text-center  d-flex align-items-center" href="discover-political.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Political</p>
+          </a>
+        </li>
+        <li class="page-item mr-2"><a class="page-link rounded pli-9 text-center  d-flex align-items-center" href="discover-satire.html">
+            <p class='text-white font-weight-bolder mx-auto my-auto'>Satire</p>
+          </a>
+        </li>
 
-        <button class='mr-3 bg-white border-light p-1 rounded small font-weight-bolder' type="button" name="button">iPad</button>
+        <li class="page-item d-inline rounded active ">
+          <div class="shadow-scroll-2 d-flex align-items-center   ">
+            <a class="right-chevron mr-0 bg-light border-light text-dark sticky-right rounded-circle py-0 px-4 align-items-center d-flex page-link " href="#" aria-label="Next">
+              <span aria-hidden="true"><i class="fas fa-chevron-right "></i></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
 
+    <section class="main-header-2 container-fluid  mt-0 w-50 mx-auto">
+      <div class="justify-content-center main-header-links d-flex row mx-auto flex-nowrap">
+        <button class='mr-2  bg-white border-light p-1 rounded small font-weight-bolder' type="button" name="button">All Photoshop</button>
+        <button class='mr-2 bg-white border-light p-1 rounded small font-weight-bolder' type="button" name="button">Desktop</button>
+        <button class='mr-2 bg-white border-light p-1 rounded small font-weight-bolder' type="button" name="button">iPad</button>
       </div>
-      <h1 class='display-4 mx-auto text-center font-weight-bolder'>Illustrator</h1>
-      <h5 class='text-center'>Create beautiful vector art in Illustrator. Make logos, icons, sketches, typography, and complex illustrations</h5>
+      <h1 class=' mx-auto text-center font-weight-bolder'>Photoshop</h1>
+      <h5 class='text-center'>Create anything you can imagine with Photoshop, the world’s best imaging and design app</h5>
       <div class="search-bar text-center mx-auto my-2">
         <i class=" ml-3 fas small text-secondary fa-search"></i>
-        <a class='ml-2 text-secondary small' href="#">Search all Illustrator Projects</a>
+        <a class='ml-2 text-secondary small' href="#">Search all Photoshop Projects</a>
       </div>
       <div class="header-buttons text-center mx-auto my-3">
-        <button class=' rounded-pill mr-3 small p-1 btn-primary font-weight-bolder' type="button" name="button">Follow Illustrator</button>
-        <button class=' bg-white border-light p-1 rounded-pill small font-weight-bolder ' type="button" name="button"><i class="fas fa-download pr-1"></i>Download Illustrator</button>
+        <button class=' rounded-pill mr-3 small p-1 btn-primary font-weight-bolder' type="button" name="button">Follow Photoshop</button>
+        <button class=' bg-white border-light p-1 rounded-pill small font-weight-bolder ' type="button" name="button"><i class="fas fa-download pr-1"></i>Download Photoshop</button>
       </div>
     </section>
     <section class=''>
@@ -368,6 +401,8 @@
 
 
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
