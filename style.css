@@ -1,0 +1,194 @@
+.bottom-nav {
+  height: 3rem;
+}
+
+.authors {
+  font-size: 10px;
+}
+
+.grid {
+  display: grid;
+}
+
+.bottom-nav-2-buttons button {
+  font-size: 0.75rem;
+}
+
+.nav-center {
+  width: 40%;
+}
+
+.pag-1 {
+  margin-top: 50px;
+  z-index: 1;
+  overflow-x: scroll;
+}
+.carousel-item{
+  opacity:1;
+}
+.right-chevron {
+  height: 3rem;
+  z-index: 12;
+  position: absolute;
+  right: 90%;
+  width: 10%;
+  margin-right: 0;
+  opacity: 1;
+}
+
+.shadow-scroll-2 {
+  margin-top: 0;
+  position: absolute;
+  left: 95%;
+  top: 50px;
+  height: 4rem;
+  width: 5%;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(242, 242, 242));
+  z-index: 9;
+  opacity: 0.5;
+}
+
+.left-chevron {
+  height: 3rem;
+  z-index: 12;
+  position: absolute;
+  left: 50%;
+  width: 10%;
+  opacity: 1;
+}
+
+.shadow-scroll-1 {
+  margin-top: 0;
+  position: absolute;
+  right: 92.5%;
+  top: 50px;
+  height: 4rem;
+  width: 100%;
+  background-image: linear-gradient(rgb(242, 242, 242), rgb(255, 255, 255));
+  z-index: 9;
+  opacity: 0.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .pag-1 {
+    overflow-x: hidden;
+  }
+}
+
+.main-header-links {
+  font-size: 0.75rem;
+}
+
+.pli-1 p,
+.pli-2 p,
+.pli-3 p,
+.pli-4 p,
+.pli-5 p,
+.pli-6 p,
+.pli-7 p,
+.pli-8 p,
+.pli-9 p,
+.pli-home p {
+  font-size: 0.85rem;
+}
+
+.pli-1,
+.pli-2,
+.pli-3,
+.pli-4,
+.pli-5,
+.pli-6,
+.pli-7,
+.pli-8,
+.pli-9,
+.pli-home {
+  height: 4rem;
+  width: 8.5rem;
+}
+
+.pli-1 {
+  background-image: url(pictures/pic1.jpg);
+  opacity: 0.7;
+}
+
+.pli-2 {
+  background-image: url(pictures/pic2.jpg);
+  opacity: 0.7;
+}
+
+.pli-3 {
+  background-image: url(pictures/pic3.jpg);
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.pli-4 {
+  background-image: url(pictures/pic4.jpg);
+  opacity: 0.7;
+}
+
+.pli-5 {
+  background-image: url(pictures/pic5.jpg);
+  opacity: 0.7;
+}
+
+.pli-6 {
+  background-image: url(pictures/pic6.jpeg);
+  opacity: 0.7;
+}
+
+.pli-7 {
+  background-image: url(pictures/pic7.jpg);
+  opacity: 0.7;
+}
+
+.pli-8 {
+  background-image: url(pictures/pic8.png);
+  opacity: 0.7;
+}
+
+.pli-9 {
+  background-image: url(pictures/pic9.jpeg);
+  opacity: 0.7;
+}
+
+.mh-cell-home {
+  height: 4rem;
+  width: 10rem;
+}
+
+.mh-cell a {
+  z-index: 500;
+}
+
+.main-body-signup {
+  margin-bottom: 100px;
+}
+
+.mb-cell-middle-right p {
+  font-size: 10px;
+}
+
+.bottom-nav-2 {
+  grid-template-columns: 75% 25%;
+  height: 2rem;
+}
+
+.main-body {
+  margin-top: 200px;
+}
+.cv-img{
+  width:10px;
+  height:10px;
+}
+.main-body-discover {
+  margin-top: 90px;
+}
+.carousel-2-vid{
+  height:6rem;
+
+}
+.footer-link {
+  font-size: 10px;
+  color: dimgrey;
+}

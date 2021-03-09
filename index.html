@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <title>News-Week</title>
+  <title>Amira & Art</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
   <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -15,9 +15,421 @@
 </head>
 
 <body>
+  <header>
+    <nav class='navbar fixed-top container-fluid bg-white my-0'>
+      <div class="top-nav  d-flex row justify-content-between col-sm-12">
+        <div class="top-nav-left d-flex row align-items-center">
+          <div class="d-sm-inline d-lg-none dropdown show justify-content-start">
+            <a class=" text-dark dropdown-toggle mx-4" href="#" role="button" id="dml-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dml-1">
+              <a class="dropdown-item" href="discover-illustrator.html">Discover</a>
+              <a class="dropdown-item" href="livestreams.html">Livestreams</a>
+              <a class="dropdown-item" href="jobs.html">Jobs</a>
+            </div>
+          </div>
+
+          <a class="text-dark mx-3 font-weight-bolder d-lg-none" href="index.html">A&A</a>
+          <a class="text-dark mx-3 font-weight-bolder d-none d-lg-inline" href="index.html">Amira & Art</a>
+          <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href="discover-illustrator.html">Discover</a>
+          <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href='livestreams.html'>Livestreams</a>
+          <a class="text-dark text-secondary mx-3 font-weight-bolder small d-none d-lg-inline" href="jobs.html">Jobs</a>
+        </div>
+        <div class="top-nav-right ml-auto">
+          <a class='text-dark d-sm-inline d-lg-none' href="#"><i class="fas fa-search"></i></a>
+          <button class='d-none d-lg-inline border-light rounded-pill  small font-weight-bolder' type="button" name="button">Log In</button>
+          <button class='d-none d-lg-inline  rounded-pill small font-weight-bolder btn-primary' type="button" name="button">Sign Up</button>
+          <a class='d-none d-lg-inline  font-weight-bolder small text-dark' href="#"><i class="fas fa-book"></i>Adobe</a>
+        </div>
+
+      </div>
+
+
+      <hr class='w-100'>
+      <div class="bottom-nav bg-light mx-auto container-fluid  border rounded-pill  ">
+
+        <div class="bottom-nav-left small d-flex row align-items-center">
+          <i class=" ml-4 fas fa-search text-secondary "></i>
+          <input class=' border-0 ml-3 bg-light font-weight-bolder' id='fname' type="text" name="fname" value="" placeholder="Search Amira&Art">
+        </div>
+        <!--mobile view-->
+        <div class="bottom-nav-right border-left d-sm-inline d-md-none dropdown show justify-content-start">
+          <a class=" small text-dark dropdown-toggle ml-2 font-weight-bolder" href="#" id="dml-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dml-2">
+            <a class="dropdown-item" href="#">Surrealism</a>
+            <a class="dropdown-item" href="#">Realism</a>
+            <a class="dropdown-item" href="#">Abstract</a>
+          </div>
+        </div>
+        <!--medium view-->
+        <div class="bottom-nav-right d-none d-md-inline border-left ">
+          <button class='font-weight-bolder mx-3 rounded-pill btn-dark small' type="button" name="button"> Projects</button>
+          <a class='text-dark small mx-3 font-weight-bolder' href="#">Images</a>
+          <a class='text-dark small mx-3 font-weight-bolder' href="#">People</a>
+          <a class='text-dark small mx-3 font-weight-bolder' href="#">Moodboards</a>
+        </div>
+
+
+      </div>
+      <div class="bottom-nav-2 container-fluid grid mx-auto d-none d-md-inline mt-3   ">
+        <div class="bottom-nav-2-left d-flex row flex-nowrap">
+
+
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="dropdownMenuButt" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButt">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="db-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="db-1">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown bottom-nav-2-buttons mr-3">
+            <button class="btn  border  font-weight-bolder dropdown-toggle" type="button" id="db-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fas fa-paint-brush"></i>Creative Fields
+            </button>
+            <div class="dropdown-menu" aria-labelledby="db-2">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown show ml-auto">
+            <a class="btn  dropdown-toggle" href="#" id="dml-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Recommended
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dml-3">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="w-100 mt-3 p-0 mb-0 ">
+    </nav>
+  </header>
+  <main class=''>
+
+    <div class="main-body container-fluid row  mx-auto">
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-cell  container-fluid mb-2 col-md-6 col-lg-3 ">
+        <img class='w-100 rounded' src="pictures/pic1.jpg" alt="">
+        <div class="mb-cell-middle d-flex row container-fluid mb-0 my-1">
+
+          <div class="mb-cell-middle-left ">
+            <b class='text-dark small font-weight-bolder'>Fear..</b>
+            <p class='authors mt-0'>metwalli hasabala</p>
+          </div>
+
+          <div class="mb-cell-middle-right ml-auto d-flex mb-0 row mt-1">
+            <p class='font-weight-bolder  mr-2 small'> <i class="fas text-secondary fa-thumbs-up"></i>242</p>
+            <p class='font-weight-bolder small '><i class="far text-secondary fa-eye"></i>213</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="main-body-signup container-fluid text-center w-75 mx-auto mt-5">
+      <p class='text-dark font-weight-bolder d-lg-none'> <a class='text-dark' href="#"><u>Sign up</u></a> or <a class='text-dark' href="#"><u>Sign in</u></a> to your account to view more work. </p>
+      <p class='text-dark font-weight-bolder d-none d-lg-inline'> <a class='text-dark' href="#"><u>Sign up</u></a> or <a class='text-dark' href="#"><u>Sign in</u></a> to your account to view more work personalized to your preferences. </p>
+      <div class="sign-up-bottom d-flex row justify-content-center align-items-baseline">
+        <button class='rounded-pill d-lg-none small font-weight-bolder btn-primary' type="button" name="button">Sign Up</button>
+        <button class='rounded-pill d-none d-lg-inline small font-weight-bolder btn-primary' type="button" name="button">Sign Up With Email</button>
+        <a class='mx-3 text-dark' href="#"> <i class="fab fa-apple"></i></a>
+        <a class='mx-3 text-dark' href="#"> <i class="fab fa-facebook-f"></i></a>
+        <a class='mx-3 text-dark ' href="#"> <i class="fab fa-google"></i></a>
+      </div>
+
+    </div>
+
+
+
+
+
+  </main>
+  <footer class='d-none d-md-inline fixed-bottom container-fluid bg-white'>
+    <hr class='my-0'>
+    <div class="d-flex row flex-nowrap mt-1 pb-1 align-items-center ">
+      <div class="btn-group dropup border-right mx-4">
+        <a class="footer-link font-weight-bolder dropdown-toggle mx-4" href="#" role="button" id="dml-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More Amira & Art
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <div class="btn-group dropup border-right mx-4">
+        <a class="footer-link font-weight-bolder dropdown-toggle mx-4" href="#" role="button" id="dml-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          English
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      <a class="footer-link font-weight-bolder mx-4" href="#"> Privacy</a>
+      <a class="footer-link font-weight-bolder mx-4" href="#"> Community</a>
+      <a class="footer-link font-weight-bolder mx-4" href="#"> Help</a>
+      <a class="footer-link font-weight-bolder mx-4" href="#"> Cookie preferences</a>
+      <a class="footer-link text-dark font-weight-bolder ml-auto mr-4 " href="#"><i class="mr-1 fas fa-book"></i>Adobe</a>
+
+    </div>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
-</body>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
